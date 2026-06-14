@@ -15,11 +15,8 @@ LINKEDIN_URL = "https://www.linkedin.com/in/blendi-gashi-0807a4276/"
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
 # Directly reference files in the assets folder (ensure it exists)
-resume_file = "assets/egezon_cv_12_2024.pdf"
 profile_pic_file = "assets/profile-pic.jpeg"
 
-with open(resume_file, "rb") as pdf_file:
-    PDFbyte = pdf_file.read()
 
 profile_pic = Image.open(profile_pic_file)
 
