@@ -40,10 +40,9 @@ if page == "Home":
     st.subheader("Experience & Qualifications")
     st.write(
         """
-- ✔️ Extensive experience with spatial-sensor data and algorithm development.
-- ✔️ Skilled in Python (FastAPI, Pandas, Numpy), SQL, DBT, and Airflow.
-- ✔️ Experienced in visualizing and analyzing sensor data to deliver insights.
-- ✔️ Proficient in PowerBI and interactive dashboard development.
+- ✔️ Experience with programming data and web development.
+- ✔️ Skilled in Python and SQL.
+- ✔️ Experienced in design graphic.
 """
     )
 
