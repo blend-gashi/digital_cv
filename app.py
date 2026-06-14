@@ -76,6 +76,14 @@ elif page == "About":
     Programer and It student with a passion for data science and machine learning. I have experience working with spatial-sensor data and developing algorithms to extract insights from it. I am proficient in Python, SQL, and various data visualization tools. I am currently pursuing a BSc in Computer Science at the University of Prizren, where I am honing my skills and expanding my knowledge in the field of data science.
     """)
 
+  
+
+elif page == "Contact":
+    st.title("Contact Me")
+    st.write("""
+    I am currently looking for opportunities to work as a data scientist or machine learning engineer. If you have any questions or would like to discuss potential opportunities, feel free to reach out!
+    """)
+
     # Show LinkedIn and Email only on the About page
     st.write("📫", EMAIL)
     st.write(f"Feel free to connect with me on [LinkedIn]({LINKEDIN_URL}).")
