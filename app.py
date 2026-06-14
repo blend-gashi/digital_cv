@@ -33,12 +33,7 @@ if page == "Home":
     with col2:
         st.title(NAME)
         st.write(DESCRIPTION)
-        st.download_button(
-            label="📄 Download Resume",
-            data=PDFbyte,
-            file_name="CV.pdf",
-            mime="application/octet-stream",
-        )
+        
 
     # --- EXPERIENCE & QUALIFICATIONS ---
     st.write("\n")
